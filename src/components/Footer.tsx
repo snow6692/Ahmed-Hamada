@@ -19,9 +19,9 @@ const Footer = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-6 md:mb-0">
+          <div className="mb-6 md:mb-0 self-center mr-28">
             <h3 className="text-2xl font-bold">
-              Ahmed<span className="text-primary">H</span>
+              Ahmed<span className="text-primary"> Hamada</span>
             </h3>
             <p className="text-muted-foreground">Fullstack Developer</p>
           </div>

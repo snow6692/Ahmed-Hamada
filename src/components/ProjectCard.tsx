@@ -62,14 +62,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           <CardTitle className="text-xl font-bold mb-2">{title}</CardTitle>
           <p className="text-muted-foreground mb-4">{description}</p>
           <div className="mb-4">
-            <h4 className="text-sm font-semibold text-muted-foreground mb-2">
+            <h4 className="text-sm font-semibold text-muted-foreground mb-2 ">
               Technologies:
             </h4>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2  ">
               {techStack.map((tech) => (
                 <motion.span
                   key={tech}
-                  className="bg-muted text-muted-foreground px-2 py-1 rounded-md text-sm"
+                  className="bg-muted text-muted-foreground px-2  mx-2 py-1 rounded-md text-sm"
                   whileHover={{
                     scale: 1.1,
                     backgroundColor: "var(--primary)",
@@ -92,9 +92,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                     href={liveUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1"
+                    className="inline-flex items-center gap-1 "
                   >
-                    <ExternalLinkIcon className="w-4 h-4" /> Live Demo
+                    <ExternalLinkIcon className="w-4 h-4 " /> Live Demo
                   </Link>
                 </Button>
               </motion.div>
