@@ -13,18 +13,18 @@ export const metadata = {
     "Explore the portfolio of Ahmed Hamada, a passionate fullstack developer specializing in Next.js, TypeScript, and AI integrations.",
   keywords:
     "Ahmed Hamada, fullstack developer, Next.js, TypeScript, AI integration, portfolio, web development",
-  authors: [{ name: "Ahmed Hamada", url: "https://yourwebsite.com" }],
+  authors: [{ name: "Ahmed Hamada", url: "https://ahmed-hamada.vercel.app/" }],
   creator: "Ahmed Hamada",
   themeColor: "#000000", // Matches dark theme
   openGraph: {
     title: "Ahmed Hamada - Fullstack Developer",
     description:
       "Check out my portfolio showcasing modern web applications and AI-driven projects.",
-    url: "https://yourwebsite.com",
+    url: "https://ahmed-hamada.vercel.app/",
     siteName: "Ahmed Hamada Portfolio",
     images: [
       {
-        url: "https://yourwebsite.com/og-image.jpg",
+        url: "https://ahmed-hamada.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Ahmed Hamada Portfolio",
@@ -87,7 +87,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Ahmed Hamada",
-              url: "https://yourwebsite.com",
+              url: "https://ahmed-hamada.vercel.app/",
               jobTitle: "Fullstack Developer",
               description:
                 "A passionate fullstack developer specializing in Next.js, TypeScript, and AI integrations.",
